@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T22:02:34 IST" name="Default suite" finished-at="2024-02-12T22:04:15 IST" duration-ms="100477">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T22:02:34 IST" name="Default test" finished-at="2024-02-12T22:04:15 IST" duration-ms="100477">
+      <class name="com.ts.testlayer.TestCountryMaster">
+        <test-method is-config="true" signature="preSuiteHandler()[pri:0, instance:com.ts.testlayer.TestCountryMaster@4bdeaabb]" started-at="2024-02-12T22:02:11 IST" name="preSuiteHandler" finished-at="2024-02-12T22:02:34 IST" duration-ms="23305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSuiteHandler -->
+        <test-method signature="addCountry()[pri:10, instance:com.ts.testlayer.TestCountryMaster@4bdeaabb]" started-at="2024-02-12T22:02:34 IST" name="addCountry" finished-at="2024-02-12T22:04:11 IST" duration-ms="96726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCountry -->
+        <test-method is-config="true" signature="postMethodHandler(org.testng.ITestResult)[pri:0, instance:com.ts.testlayer.TestCountryMaster@4bdeaabb]" started-at="2024-02-12T22:04:11 IST" name="postMethodHandler" finished-at="2024-02-12T22:04:15 IST" duration-ms="3689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCountry status=SUCCESS method=TestCountryMaster.addCountry()[pri:10, instance:com.ts.testlayer.TestCountryMaster@4bdeaabb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethodHandler -->
+        <test-method is-config="true" signature="postSuiteHandler()[pri:0, instance:com.ts.testlayer.TestCountryMaster@4bdeaabb]" started-at="2024-02-12T22:04:15 IST" name="postSuiteHandler" finished-at="2024-02-12T22:04:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSuiteHandler -->
+      </class> <!-- com.ts.testlayer.TestCountryMaster -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
