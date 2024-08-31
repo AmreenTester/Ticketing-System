@@ -439,6 +439,11 @@ public class CustomerMaster extends MasterClass{
 		}
 		reportHelper.generateLog(test, "Expected Output : "+expectedOutput);
 	}
+	
+	public void add()
+	{
+		System.out.println("Hello");
+	}
 }
 
 
